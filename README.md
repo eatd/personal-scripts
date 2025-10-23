@@ -1,10 +1,10 @@
 # Personal Scripts Collection
 
-A collection of small personal utility scripts for various everyday tasks.
+A collection of small personal utility scripts for various everyday tasks, organized by category.
 
 ## Scripts
 
-### Image Processing
+### Image Processing (`image-processing/`)
 - **gif_to_frames.py** - Extract individual frames from a GIF file as PNG images
 
 ## Requirements
@@ -13,10 +13,11 @@ Each script may have its own dependencies. Check the comments at the top of each
 
 ## Usage
 
-Each script is designed to be run independently. Simply execute the Python file:
+Each script is designed to be run independently. Navigate to the appropriate folder and execute the Python file:
 
 ```bash
-python script_name.py
+cd image-processing
+python gif_to_frames.py
 ```
 
 ## Contributing
